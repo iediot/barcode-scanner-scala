@@ -1,0 +1,58 @@
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] IncrementalCompile -----------[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncrementalCompile.incrementalCompile[0m
+[0m[[0m[0mdebug[0m] [0m[0mprevious = Stamps for: 64 products, 10 sources, 2 libraries[0m
+[0m[[0m[0mdebug[0m] [0m[0mcurrent source = Set(${BASE}/src/main/scala/decoder/Parser.scala, ${BASE}/src/main/scala/database/FilterCond.scala, ${BASE}/src/main/scala/database/Table.scala, ${BASE}/src/main/scala/Main.scala, ${BASE}/src/main/scala/decoder/Convertor.scala, ${BASE}/src/main/scala/shop/Commands.scala, ${BASE}/src/main/scala/decoder/Reader.scala, ${BASE}/src/main/scala/database/PP_SQL.scala, ${BASE}/src/main/scala/decoder/Decoder.scala, ${BASE}/src/main/scala/decoder/Types.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> initialChanges = InitialChanges(Changes(added = Set(), removed = Set(), changed = Set(${BASE}/src/main/scala/decoder/Decoder.scala, ${BASE}/src/main/scala/database/FilterCond.scala, ${BASE}/src/main/scala/shop/Commands.scala, ${BASE}/src/main/scala/database/Table.scala, ${BASE}/src/main/scala/database/PP_SQL.scala), unmodified = ...),Set(),Set(),API Changes: Set())[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial source changes:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	removed: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	added: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	modified: Set(${BASE}/src/main/scala/database/FilterCond.scala, ${BASE}/src/main/scala/database/Table.scala, ${BASE}/src/main/scala/shop/Commands.scala, ${BASE}/src/main/scala/database/PP_SQL.scala, ${BASE}/src/main/scala/decoder/Decoder.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated products: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mExternal API changes: API Changes: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mModified binary dependencies: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set(database.DeleteRow, shop.Commands, decoder.Decoder$.RatioInt, database.FilterCond$package, database.PP_SQL$package, database.Table, database.Table$package, database.PP_SQL_Table, database.SortTable, database.FilterRows, database.All, database.Compound, database.InsertRow, database.Not, decoder.Decoder, database.Any, database.SelectColumns, decoder.Decoder$.int2Bit, decoder.Decoder$.char2Bit, database.Field, database.UpdateRow, database.FilterCond)[0m
+[0m[[0m[0mdebug[0m] [0m[0mSources indirectly invalidated by:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	binary dep: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	external source: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated classes: Set(database.DeleteRow, shop.Commands, decoder.Decoder$.RatioInt, database.FilterCond$package, database.PP_SQL$package, database.Table, database.Table$package, database.PP_SQL_Table, database.SortTable, database.FilterRows, database.All, database.Compound, database.InsertRow, database.Not, decoder.Decoder, database.Any, database.SelectColumns, decoder.Decoder$.int2Bit, decoder.Decoder$.char2Bit, database.Field, database.UpdateRow, database.FilterCond)[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated sources:Set(${BASE}/src/main/scala/database/FilterCond.scala, ${BASE}/src/main/scala/database/Table.scala, ${BASE}/src/main/scala/shop/Commands.scala, ${BASE}/src/main/scala/database/PP_SQL.scala, ${BASE}/src/main/scala/decoder/Decoder.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: database.DeleteRow, shop.Commands, decoder.Decoder$.RatioInt, database.FilterCond$package, database.PP_SQL$package, database.Table, database.Table$package, database.PP_SQL_Table, database.SortTable, database.FilterRows, database.All, database.Compound, database.InsertRow, database.Not, decoder.Decoder, database.Any, database.SelectColumns, decoder.Decoder$.int2Bit, decoder.Decoder$.char2Bit, database.Field, database.UpdateRow, database.FilterCond[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding database.SortTable by database.PP_SQL_Table[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding database.FilterRows by database.PP_SQL_Table[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding database.InsertRow by database.PP_SQL_Table[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding database.SelectColumns by database.PP_SQL_Table[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding database.UpdateRow by database.PP_SQL_Table[0m
+[0m[[0m[0mdebug[0m] [0m[0mcompilation cycle 1[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 5 Scala sources to /home/edi/VariousCode/Facultate/Anul2/PP/Tema1/tema1_pp_2026_skel_v3/target/scala-3.8.2/classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mReturning already retrieved and compiled bridge: /home/edi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-sbt-bridge/3.8.2/scala3-sbt-bridge-3.8.2.jar.[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 2d2a1c43 for Scala Compiler version 3.8.2[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	/home/edi/VariousCode/Facultate/Anul2/PP/Tema1/tema1_pp_2026_skel_v3/target/scala-3.8.2/classes:/home/edi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.8.2/scala3-library_3-3.8.2.jar:/home/edi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/github/tototoshi/scala-csv_3/1.3.10/scala-csv_3-1.3.10.jar:/home/edi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/scalameta_3/4.15.2/scalameta_3-4.15.2.jar:/home/edi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/3.8.2/scala-library-3.8.2.jar:/home/edi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/parsers_3/4.15.2/parsers_3-4.15.2.jar:/home/edi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/trees_2.13/4.15.2/trees_2.13-4.15.2.jar:/home/edi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/common_2.13/4.15.2/common_2.13-4.15.2.jar:/home/edi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/io_2.13/4.15.2/io_2.13-4.15.2.jar:/home/edi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.13/0.4.4/sourcecode_2.13-0.4.4.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 5.496055118 s[0m
+[0m[[0m[0mdebug[0m] [0m[0mdone compiling[0m
+[0m[[0m[0mdebug[0m] [0m[0mNew invalidations:[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: [0m
+[0m[[0m[0mdebug[0m] [0m[0mPreviously invalidated, but (transitively) depend on new invalidations:[0m
+[0m[[0m[0mdebug[0m] [0m[0mFinal step, transitive dependencies:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: database.DeleteRow, shop.Commands, decoder.Decoder$.RatioInt, database.FilterCond$package, database.PP_SQL$package, database.Table, database.Table$package, database.PP_SQL_Table, database.SortTable, database.FilterRows, database.All, database.Compound, database.InsertRow, database.Not, decoder.Decoder, database.Any, database.SelectColumns, decoder.Decoder$.int2Bit, decoder.Decoder$.char2Bit, database.Field, database.UpdateRow, database.FilterCond[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding Main$package by shop.Commands[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding main by shop.Commands[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding database.UpdateRow by database.FilterCond$package[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding database.FilterRows by database.FilterCond$package[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding database.PP_SQL_Table by database.Table[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding database.SortTable by database.Table[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding database.InsertRow by database.Table[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding database.SelectColumns by database.Table[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding database.All by database.Table$package[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding database.Compound by database.Table$package[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding database.Not by database.Table$package[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding database.Any by database.Table$package[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding database.Field by database.Table$package[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding database.FilterCond by database.Table$package[0m
+[0m[[0m[0mdebug[0m] [0m[0mIncluding decoder.Reader by decoder.Decoder[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated macros due to upstream dependencies change: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mNo classes were invalidated.[0m
