@@ -1,57 +1,57 @@
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(TestDecoder, org.scalatest.tools.Framework$$anon$1@bc7ab32, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(TestDecoder, org.scalatest.tools.Framework$$anon$1@674d63a2, false, [SuiteSelector])[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mTestDecoder:[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- Tipul Bit (5p): (23 milliseconds)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- Codificari (5p): (287 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Tipul Bit (5p): (25 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Codificari (5p): (269 milliseconds)[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- Group and runLength (10p): (1 millisecond)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- Tipul RatioInt (10p): (2 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Tipul RatioInt (10p): (3 milliseconds)[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- Scale to one (10p): (0 milliseconds)[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- Scaled run length (10p): (0 milliseconds)[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- Paritati (5p): (0 milliseconds)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- Codificari cu Run Length Scaled (5p): (2 milliseconds)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- Distance (5p): (0 milliseconds)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- Best match (5p): (6 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Codificari cu Run Length Scaled (5p): (3 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Distance (5p): (1 millisecond)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Best match (5p): (7 milliseconds)[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- Find last 12 digits (10p): (4 milliseconds)[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- First digit (5p): (1 millisecond)[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- Check digit (1p): (1 millisecond)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- Verify code (4p): (2 milliseconds)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- Final (10p): (2 seconds, 737 milliseconds)[0m[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(TestSQL, org.scalatest.tools.Framework$$anon$1@bc7ab32, false, [SuiteSelector])[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Verify code (4p): (3 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Final (10p): (2 seconds, 639 milliseconds)[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(TestSQL, org.scalatest.tools.Framework$$anon$1@674d63a2, false, [SuiteSelector])[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mTestSQL:[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mTDA Table[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- InsertRow (2p) (6 milliseconds)[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- UpdateRow (2p) (3 milliseconds)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- DeleteRow (2p) (1 millisecond)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- SortTable (2p) (2 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- DeleteRow (2p) (2 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- SortTable (2p) (1 millisecond)[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- FilterRows (2p) (2 milliseconds)[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mimplicits[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- Test implicits (4p) (3 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Test implicits (4p) (2 milliseconds)[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mprettier language[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- INSERT (4p) (0 milliseconds)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- SORT (4p) (1 millisecond)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- SORT (4p) (0 milliseconds)[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- DELETE (4p) (1 millisecond)[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- UPDATE (4p) (1 millisecond)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- EXTRACT (4p) (1 millisecond)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- EXTRACT (4p) (0 milliseconds)[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- FILTER (4p) (1 millisecond)[0m[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(TestCommands, org.scalatest.tools.Framework$$anon$1@bc7ab32, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(TestCommands, org.scalatest.tools.Framework$$anon$1@674d63a2, false, [SuiteSelector])[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mTestCommands:[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mCommands[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- Add (5p) (2 milliseconds)[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- Edit (5p) (0 milliseconds)[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- Remove (5p) (1 millisecond)[0m[0m
-[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(TestTable, org.scalatest.tools.Framework$$anon$1@bc7ab32, false, [SuiteSelector])[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning TaskDef(TestTable, org.scalatest.tools.Framework$$anon$1@674d63a2, false, [SuiteSelector])[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mTestTable:[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mapply[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- Test apply (5p) (2 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Test apply (5p) (1 millisecond)[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mtoString[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- Test toString (2p) (0 milliseconds)[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32mTest operations[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- Insert (3p) (1 millisecond)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Insert (3p) (0 milliseconds)[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- Delete (5p) (0 milliseconds)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- Sort (5p) (1 millisecond)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[32m- Select (5p) (1 millisecond)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Sort (5p) (0 milliseconds)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Select (5p) (0 milliseconds)[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- Filter (15p) (3 milliseconds)[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[32m- Update (10p) (2 milliseconds)[0m[0m
-[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 3 seconds, 412 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 3 seconds, 286 milliseconds.[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 38[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 4, aborted 0[0m[0m
 [0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 38, failed 0, canceled 0, ignored 0, pending 0[0m[0m

@@ -1,16 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<testsuite hostname="archlinux" name="TestDecoder" tests="15" errors="0" failures="0" skipped="0" time="3.066" timestamp="2026-05-07T13:13:02">
+<testsuite hostname="archlinux" name="TestDecoder" tests="15" errors="0" failures="0" skipped="0" time="2.957" timestamp="2026-05-07T19:03:28">
           <properties>
       <property name="java.specification.version" value="26"/><property name="sun.jnu.encoding" value="UTF-8"/><property name="java.class.path" value="/usr/share/sbt/bin/sbt-launch.jar"/><property name="java.vm.vendor" value="Arch Linux"/><property name="sun.arch.data.model" value="64"/><property name="jline.shutdownhook" value="false"/><property name="java.vendor.url" value="https://openjdk.org/"/><property name="user.timezone" value="Europe/Bucharest"/><property name="java.vm.specification.version" value="26"/><property name="os.name" value="Linux"/><property name="sun.java.launcher" value="SUN_STANDARD"/><property name="user.country" value="US"/><property name="sun.boot.library.path" value="/usr/lib/jvm/java-26-openjdk/lib"/><property name="sun.java.command" value="/usr/share/sbt/bin/sbt-launch.jar test"/><property name="jdk.debug" value="release"/><property name="sun.cpu.endian" value="little"/><property name="user.home" value="/home/edi"/><property name="user.language" value="en"/><property name="sbt.script" value="/usr/sbin/sbt"/><property name="java.specification.vendor" value="Oracle Corporation"/><property name="sbt.ipcsocket.tmpdir" value="/run/user/1000/.sbta3b6d4a7/ipcsocket"/><property name="swoval.tmpdir" value="/run/user/1000/.sbta3b6d4a7/swoval"/><property name="java.version.date" value="2026-04-21"/><property name="java.home" value="/usr/lib/jvm/java-26-openjdk"/><property name="file.separator" value="/"/><property name="java.vm.compressedOopsMode" value="32-bit"/><property name="line.separator" value="
-"/><property name="java.vm.specification.vendor" value="Oracle Corporation"/><property name="java.specification.name" value="Java Platform API Specification"/><property name="jline.esc.timeout" value="0"/><property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/><property name="java.runtime.version" value="26.0.1"/><property name="user.name" value="edi"/><property name="stdout.encoding" value="UTF-8"/><property name="path.separator" value=":"/><property name="os.version" value="6.19.12-zen1-1-zen"/><property name="jna.nosys" value="true"/><property name="java.runtime.name" value="OpenJDK Runtime Environment"/><property name="log4j.ignoreTCL" value="true"/><property name="file.encoding" value="UTF-8"/><property name="jnidispatch.path" value="/home/edi/.cache/JNA/temp/jna17445551542437925152.tmp"/><property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/><property name="jna.platform.library.path" value="/usr/lib64:/lib64:/usr/lib:/lib:/usr/lib32:/usr/lib/swift/lib/swift/linux:/usr/lib/libfakeroot"/><property name="jna.loaded" value="true"/><property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/><property name="java.io.tmpdir" value="/tmp"/><property name="java.version" value="26.0.1"/><property name="user.dir" value="/home/edi/VariousCode/Facultate/Anul2/PP/Tema1/tema1_pp_2026_skel_v3"/><property name="os.arch" value="amd64"/><property name="java.vm.specification.name" value="Java Virtual Machine Specification"/><property name="native.encoding" value="UTF-8"/><property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/><property name="java.vm.info" value="mixed mode, sharing"/><property name="stderr.encoding" value="UTF-8"/><property name="java.vendor" value="Arch Linux"/><property name="java.vm.version" value="26.0.1"/><property name="stdin.encoding" value="UTF-8"/><property name="scala.ext.dirs" value="/home/edi/.sbt/1.0/java9-rt-ext-arch_linux_26_0_1"/><property name="sun.io.unicode.encoding" value="UnicodeLittle"/><property name="java.class.version" value="70.0"/>
+"/><property name="java.vm.specification.vendor" value="Oracle Corporation"/><property name="java.specification.name" value="Java Platform API Specification"/><property name="jline.esc.timeout" value="0"/><property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/><property name="java.runtime.version" value="26.0.1"/><property name="user.name" value="edi"/><property name="stdout.encoding" value="UTF-8"/><property name="path.separator" value=":"/><property name="os.version" value="6.19.12-zen1-1-zen"/><property name="jna.nosys" value="true"/><property name="java.runtime.name" value="OpenJDK Runtime Environment"/><property name="log4j.ignoreTCL" value="true"/><property name="file.encoding" value="UTF-8"/><property name="jnidispatch.path" value="/home/edi/.cache/JNA/temp/jna8102187105667898057.tmp"/><property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/><property name="jna.platform.library.path" value="/usr/lib64:/lib64:/usr/lib:/lib:/usr/lib32:/usr/lib/swift/lib/swift/linux:/usr/lib/libfakeroot"/><property name="jna.loaded" value="true"/><property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/><property name="java.io.tmpdir" value="/tmp"/><property name="java.version" value="26.0.1"/><property name="user.dir" value="/home/edi/VariousCode/Facultate/Anul2/PP/Tema1/tema1_pp_2026_skel_v3"/><property name="os.arch" value="amd64"/><property name="java.vm.specification.name" value="Java Virtual Machine Specification"/><property name="native.encoding" value="UTF-8"/><property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/><property name="java.vm.info" value="mixed mode, sharing"/><property name="stderr.encoding" value="UTF-8"/><property name="java.vendor" value="Arch Linux"/><property name="java.vm.version" value="26.0.1"/><property name="stdin.encoding" value="UTF-8"/><property name="scala.ext.dirs" value="/home/edi/.sbt/1.0/java9-rt-ext-arch_linux_26_0_1"/><property name="sun.io.unicode.encoding" value="UnicodeLittle"/><property name="java.class.version" value="70.0"/>
     </properties>
-          <testcase classname="TestDecoder" name="Tipul Bit (5p):" time="0.023">
+          <testcase classname="TestDecoder" name="Tipul Bit (5p):" time="0.025">
                       
-                    </testcase><testcase classname="TestDecoder" name="Codificari (5p):" time="0.287">
+                    </testcase><testcase classname="TestDecoder" name="Codificari (5p):" time="0.269">
                       
                     </testcase><testcase classname="TestDecoder" name="Group and runLength (10p):" time="0.001">
                       
-                    </testcase><testcase classname="TestDecoder" name="Tipul RatioInt (10p):" time="0.002">
+                    </testcase><testcase classname="TestDecoder" name="Tipul RatioInt (10p):" time="0.003">
                       
                     </testcase><testcase classname="TestDecoder" name="Scale to one (10p):" time="0.0">
                       
@@ -18,11 +18,11 @@
                       
                     </testcase><testcase classname="TestDecoder" name="Paritati (5p):" time="0.0">
                       
-                    </testcase><testcase classname="TestDecoder" name="Codificari cu Run Length Scaled (5p):" time="0.002">
+                    </testcase><testcase classname="TestDecoder" name="Codificari cu Run Length Scaled (5p):" time="0.003">
                       
-                    </testcase><testcase classname="TestDecoder" name="Distance (5p):" time="0.0">
+                    </testcase><testcase classname="TestDecoder" name="Distance (5p):" time="0.001">
                       
-                    </testcase><testcase classname="TestDecoder" name="Best match (5p):" time="0.006">
+                    </testcase><testcase classname="TestDecoder" name="Best match (5p):" time="0.007">
                       
                     </testcase><testcase classname="TestDecoder" name="Find last 12 digits (10p):" time="0.004">
                       
@@ -30,9 +30,9 @@
                       
                     </testcase><testcase classname="TestDecoder" name="Check digit (1p):" time="0.001">
                       
-                    </testcase><testcase classname="TestDecoder" name="Verify code (4p):" time="0.002">
+                    </testcase><testcase classname="TestDecoder" name="Verify code (4p):" time="0.003">
                       
-                    </testcase><testcase classname="TestDecoder" name="Final (10p):" time="2.737">
+                    </testcase><testcase classname="TestDecoder" name="Final (10p):" time="2.639">
                       
                     </testcase>
           <system-out><![CDATA[]]></system-out>
